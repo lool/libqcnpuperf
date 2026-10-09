@@ -68,7 +68,7 @@ int main(int argc, char *argv[])
 			return EXIT_FAILURE;
 		}
 
-		mvprintw(0, 0, "----------------- %s Stats---------------------\n", domain_to_str(DSP_NPU0));
+		mvprintw(0, 0, "----------------- %s Stats ---------------------\n", domain_to_str(DSP_NPU0));
 		mvprintw(1, 0, "Q6 Utilization        : %.2f %%\n", qcom_dsp_prof_get_q6_utilization(data));
 		mvprintw(2, 0, "Q6 Clock              : %u KHz\n",  qcom_dsp_prof_get_q6_clock(data));
 		mvprintw(3, 0, "HVX Utilization       : %.2f %%\n", qcom_dsp_prof_get_hvx_utilization(data));
