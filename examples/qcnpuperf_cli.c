@@ -72,7 +72,7 @@ int main(int argc, char *argv[])
 		mvprintw(1, 0, "Q6 Utilization        : %.2f %%\n", qcom_dsp_prof_get_q6_utilization(data));
 		mvprintw(2, 0, "Q6 Clock              : %u KHz\n",  qcom_dsp_prof_get_q6_clock(data));
 		mvprintw(3, 0, "HVX Utilization       : %.2f %%\n", qcom_dsp_prof_get_hvx_utilization(data));
-		mvprintw(4, 0, "HMX Utiliziation       : %.2f %%\n", qcom_dsp_prof_get_hmx_utilization(data));
+		mvprintw(4, 0, "HMX Utilization       : %.2f %%\n", qcom_dsp_prof_get_hmx_utilization(data));
 		mvprintw(6, 0, "-------------------------------------------------\n");
 		refresh();
 		sleep(1);
